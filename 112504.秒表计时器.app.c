@@ -1,16 +1,13 @@
 #include<stdio.h>
 #include<windows.h>
-int main()
-{
-while(1)
-{
-printf("现在第一秒钟。\n");
+void main(){
+int i=0;
+printf("欢迎使用秒表计时器：\n");
+while(1){
+i++;
+system("cls");
+printf("第%d秒过去了\n");
 Sleep(1000);
-printf("现在第二秒钟。\n");
-Sleep(1000);
-printf("现在第三秒钟。\n");
-Sleep(1000);
-printf("现在第四秒钟。\n");
 }
-return 0;
 }
+
